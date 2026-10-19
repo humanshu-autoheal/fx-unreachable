@@ -1,0 +1,13 @@
+{
+  "name": "fx-unreachable",
+  "version": "1.0.0",
+  "description": "Autoheal fixture: vulnerable dependency that is declared but never imported. Expected outcome: no PR, recorded as not reachable with evidence.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "1.2.5"
+  }
+}
